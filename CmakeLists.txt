@@ -1,0 +1,21 @@
+# 1. Set the minimum version of CMake required
+cmake_minimum_required(VERSION 3.15)
+
+# 2. Name your project
+project(ChessEngine VERSION 1.0 LANGUAGES CXX)
+
+# 3. Force the compiler to use modern C++ (C++17 or C++20 is great for chess engines)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# 4. Turn on optimizations! (Crucial for chess engine speed)
+# -O3 tells the compiler to make the code run as fast as possible.
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3")
+
+# 5. Define your executable and list ALL your source (.cpp) files
+# You do NOT need to list header (.h) files here.
+add_executable(chess
+    main.cpp
+    bitboard.cpp
+    movegen.cpp
+)
