@@ -35,6 +35,28 @@ PerfTest functionality to check if move generation is accurate
 
 
 
+*** FUTURE IDEAS
+
+    - deploy on the web and have a continous chess game going that updates the training of the eval function
+    - let people watch the chess game go on on the web. 
+    - dowload all my chess .com games somehow and make a bot based on me
+    - download friends bot and make a bot based on my friend
+
+    **very bold ideas
+        - do a crowdsoureced chess game, where users of the platform vote on the next move vs. a bot 
+        - people have to login and prove theyre human and maybe their vote counts more based on what rating they are and maybe we could get that from chess.com?
+        - chat function for that, no spam though
+        - people get a limited amount of votes so no spam
+        - votes refresh every day.
+        - the pro bot gets a certain amount of baseline votes
+        - this could turn into some sort of distributed systems project
+
+
+
+
+
+
+
 
 MoveGeneration function
 
